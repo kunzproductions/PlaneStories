@@ -1,0 +1,491 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+/*    overflow: hidden;*/
+}
+#TL_Page1, #TL_Page2, #TL_Page3, #TL_Page4, #TL_Page5, #TL_Page6 {
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    width: 100%;
+    height: 200%;
+/*    background-color: red;*/
+    z-index: 5;
+}
+#TL_Page2 {
+    top: 200%;
+}
+#TL_Page3 {
+    top: 400%;
+}
+#TL_Page4 {
+    top: 600%;
+}
+#TL_Page5 {
+    top: 800%;
+}
+#TL_Page6 {
+    top: 1000%;
+}
+#WBG {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+#WBG img {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+#TL_Page4 .MB_C, #TL_Page6 .MB_C, #TL_Page3 .MB_C {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    left: 25%;
+}
+#TL_MP {
+    position: fixed;
+    top: 20%;
+    right: 2%;
+    
+    width: 50px;
+    height: auto;
+    z-index: 10;
+    text-align: center;
+/*    background-color: rgba(144,144,144,0.5)*/
+}
+
+#TL_MP .a_MP {
+    width: 50%;
+    height: 10%;
+    cursor: pointer;
+}
+
+#TL_MP a img:nth-child(1) {
+    width: 100%;
+}
+
+#TL_MP .Mp_MBs {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    
+/*    background-color: red;*/
+    
+    z-index: 10;
+}
+
+#TL_MP .C_Mp {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    position: relative;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+.TL_B747 {
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    background-color: #FFF;
+    overflow: hidden;
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    margin-top: 15%;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+}
+
+.TL_B747:nth-child(3) {
+    left: 35%;
+    
+    margin-top: 35%;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+}
+
+
+.TL_B747 img {
+    width: 500%;
+    margin-left: -180%;
+    margin-top: -60%;
+}
+.TL_B747:nth-child(3) img {
+    width: 400%;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+#web_s {
+    position: fixed;
+    width: 10%;
+    top: 10vw;
+    left: 1vw;
+    z-index: 100;
+    font-size: 22px;
+}
+
+.if_MB {
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: rotate(-29deg);
+    left: 25%;
+    background-color: rgba(44, 32, 82, 0.9);
+    color: #FFF;
+    font-size: 22px;
+    padding: 1vw 2vw;
+    text-align: justify;
+    margin-top: 10%;
+}
+
+.Show_ifMB {
+    width: 20%;
+    height: 5%;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    background-color: rgba(44, 32, 82, 1);
+    margin-top: 40%;
+    border-radius: 30px;
+}
+
+
+.CN_ifMb img {
+    position: absolute;
+    height: 100%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;   
+    cursor: pointer;
+}
+.CN_ifMb.active img {
+    filter: invert(100%);
+}
+
+.CN_ifMb img:nth-child(2) {
+    height: 50%;
+    margin-left: 11.5%;
+    top: 25%;
+}
+
+
+#TL_Page5 .MB_C {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+}
+
+#TL_Page2 .MB_C {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    left: 25%;
+}
+
+#TL_Page5 .Show_ifMB {
+    margin-top: 37%;
+}
+
+#TL_Page5 .if_MB {
+    width: 30vw;
+    left: 10%;
+    padding: 1vw 3vw;
+    margin-top: 15%;
+    transform: rotate(0deg);
+}
+
+#TL_Page5 .if_MBff {
+    position: absolute;
+    left: 55%;
+    
+    width: 20%;
+    height: 2%;
+}
+
+#TL_Page5 .if_MBff img {
+    height: 100%;
+}
+
+.TT_MBff {
+    font-family: Comfortaa_Regular;
+    font-size: 18px;
+    margin-top: -11%;
+    margin-left: 5%;
+    width: auto;
+    background-color: #2c2052;
+    padding-left: 20%;
+    color: #FFF;
+}
+#TL_Page1 .if_MB {
+    transform: rotate(0deg);
+    width: 30%;
+    left: 60%;
+    top: 11.5%;
+}
+#TL_Page1 .if_MB span {
+    font-size: 32px;
+    text-align: center;
+}
+#TL_Page6 .if_MB {
+    width: 30vw;
+    margin-top: 10%;
+    transform: rotate(0deg);
+    padding: 1vw 3vw;
+    left: 10%;
+}
+#NDC_T1 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    height: auto;
+    background-color: red;
+}
+
+#AMB_DT {
+    width: 60%;
+    box-shadow: 10px 10px 20px #000;
+}
+
+#Wright {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 90%;
+    left: 3%;
+}
+#Wright img {
+    position: absolute;
+    width: 17%;
+    box-shadow: 10px 10px 20px #000;
+}
+#Wright img:nth-child(2) {
+    left: 60%;
+    top: 50%;
+}
+
+#Wright_if {
+    position: absolute;
+    width: 100%;
+    top: 105%;
+    left: 3%;
+    font-size: 18px;
+    font-family: Comfortaa_Regular;
+    color: #FFF;
+    text-shadow: 2px 2px 2px #000;
+}
+#Wright_if span {
+    font-size: 32px;
+}
+#Wright_if #Orville {
+    position: absolute;
+    left: 13%;
+}
+
+#Wright_if #Wilbur {
+    position: absolute;
+    left: 55%;
+}
+#SA_if {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    
+    width: 85%;
+    height: 30%;
+    overflow: hidden;
+}
+
+#KS_if {
+    position: absolute;
+    bottom: 5%;
+    right: 0%;
+    background-color: #2c2052;
+    width: 10%;
+    height: 10%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#TT_MP {
+    position: absolute;
+    top: 2%;
+    right: -150%;
+    
+    font-size: 150%;
+    color: #FFF;
+}
+@media (max-width:768px){
+    #NDC_T1 {
+        width: 85%;
+        left: 3.5%;
+    }
+    
+    #AMB_DT {
+        width: 80%;
+    }
+    
+    
+    .if_MB {
+        font-size: 18px;
+        text-align: justify;
+    }
+    #TL_Page1 .if_MB {
+        width: 40vw;
+        left: 50%;
+        top: 20%;
+    }
+    #Wright {
+        top: 115%;
+        left: 0;
+    }
+    #Wright img {
+        width: 30%;
+    }
+    #Wright img:nth-child(2) {
+        left: 0%;
+        margin-top: 50%;
+    }
+    
+    #Wright_if {
+        position: absolute;
+        width: 100%;
+        top: 137%;
+        left: 10%;
+        font-size: 18px;
+    }
+    #Wright_if #Wilbur {
+        left: 13%;
+        margin-top: 35%;
+    }
+    #TL_Page2 .MB_C, #TL_Page3 .MB_C, #TL_Page4 .MB_C, #TL_Page6 .MB_C {
+        width: 60%;
+        left: 20%;
+    }
+    #TL_Page5 .MB_C {
+        width: 40%;
+        left: 30%;
+    }
+    
+    .if_MB {
+        left: 15%;
+        width: 30%;
+    }
+    .TL_B747 {
+        width: 17vw;
+        height: 17vw;
+        
+    }
+    
+    .TL_B747:nth-child(3) {
+        margin-top: 40%;
+        margin-left: -3%;
+    }
+    .Show_ifMB {
+        width: 20%;
+        height: 3%;
+    }
+    #TL_Page4 .Show_ifMB {
+        margin-top: 50%; 
+    }
+    #TL_Page5 .Show_ifMB {
+        margin-top: 52%;
+    }
+    #TL_Page6 .Show_ifMB {
+        margin-top: 50%;
+    }
+    .CN_ifMb img:nth-child(2) {
+        margin-left: 16px;
+    }
+    #TL_Page5 .if_MBff {
+        width: 30%;
+    }
+    #TL_Page5 .if_MB {
+        width: 35%;
+        left: 5%;
+    }
+    #TL_Page6 .if_MB {
+        width: 35%;
+        left: 5%;
+    }
+    
+}
+
+@media (max-width:480px){
+    #NDC_T1 {
+        width: 80%;
+        left: 3.5%;
+    }
+    
+    #AMB_DT {
+        width: 100%;
+        z-index: 10;
+    }
+    
+    
+    #TL_Page1 .if_MB {
+        width: 80%;
+        left: 3.5%;
+        top: 32.5%;
+        font-size: 16px;
+    }
+    
+    #Wright {
+        top: 180%;
+        left: 0;
+    }
+    
+    #Wright_if {
+        top: 175%;
+        left: 10%;
+        font-size: 18px;
+    }
+    
+    #TL_Page2 .MB_C, #TL_Page3 .MB_C, #TL_Page4 .MB_C, #TL_Page6 .MB_C {
+        width: 80%;
+        left: 10%;
+    }
+    #TL_Page5 .MB_C {
+        width: 40%;
+        left: 30%;
+    }
+    
+    .if_MB {
+        opacity: 0;
+    }
+    #TL_Page1 .if_MB {
+        opacity: 1;
+    }
+    .Show_ifMB {
+        left: 70%;
+        width: 40px;
+        height: 120px;
+    }
+    .CN_ifMb img:nth-child(1) {
+        width: 100%;
+        height: auto;
+    }
+    .CN_ifMb img:nth-child(2) {
+        width: 30%;
+        height: auto;
+        margin-left: 14px;
+        margin-top: -23px;
+    }
+}

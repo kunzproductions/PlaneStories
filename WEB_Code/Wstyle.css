@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: Comfortaa_Bold;
+    src:url("../fonts/Comfortaa-Bold.ttf") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: Comfortaa_Light;
+    src:url("../fonts/Comfortaa-Light.ttf") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: Comfortaa_Regular;
+    src:url("../fonts/Comfortaa-Regular.ttf") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}    
+header {
+    position: fixed;
+    z-index: 100;
+}
+
+#W_Menu {
+    width: 100%;
+    height: 100px;
+    top: 0%;
+    left: 0%;
+    right: auto;
+/*    background-color: rgba(0,0,0,0.6);*/
+/*    background-color: rgba(150,150,150,0.6);*/
+}
+#W_Logo {
+    position: fixed;
+    top: 0px;
+    left: 25px;
+    width: auto;
+    height: 100px;
+}
+#W_Logo img {
+    width: 100%;
+    height: 100%;
+}
+
+#W_Menu ul {
+/*    background-color: red;*/
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 40px;
+    margin-top: -17px;
+}
+
+#W_Menu li {
+    list-style: none;
+    float: left;
+    width: 20%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#W_Menu li a {
+    text-decoration: none;
+    font-family: Comfortaa_Bold;
+    font-size: 18px;
+    color: #FFF;
+    letter-spacing: -1px;
+}
+
+#W_Menu li.active {
+    background-color: #2c2052;
+    border-radius: 40px;
+}
+
+#HMenu {
+    width: 12%;
+    height: 7%;
+    background-color: #2c2052;
+    font-size: 36px;
+    color: #FFF;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius: 5px 0px 0px 5px;
+    position: fixed;
+    top: 3%;
+    right: 0%;
+}
+
+footer {
+    font-family: Comfortaa_Bold;
+    color: #2c2052;
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+

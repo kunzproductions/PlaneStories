@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<link href="css/bootstrap-3.4.1.css" rel="stylesheet">
+<link href="fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
+<link href="WEB_Code/Wstyle.css" rel="stylesheet">
+<link href="Thuan/Style.css" rel="stylesheet">
+<style>
+    
+    #T_Banner {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        margin-left: -75px;
+        
+        width: 150px;
+        height: 400px;
+        background-color: #AFAFAF;
+/*        overflow: hidden;*/
+    }
+    #BN_RS {
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        background-color: red;
+        z-index: 100;
+    }
+    #WWright, #OWright {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        
+        background-color: #FFF;
+        width: 100%;
+        height: 50%;
+    }
+    #OWright {
+        top: 50%;
+/*
+        left: auto;
+        right: 0%;
+*/
+    }
+    .T_WW, .T_OW {
+        position: absolute;
+        width: auto;
+        height: auto;
+/*        font-family: Comfortaa_Regular;*/
+        color: #FFF;
+        font-family: Comfortaa_Bold;
+        top: 40%;
+/*        margin-left: 25px; - mac dinh  */
+        margin-left: 100%;
+        display: block;
+    }
+    .T_OW {
+        top: 90%;
+        margin-left: -100%;
+    }
+    
+    .BN_Logo {
+        position: absolute;
+        top: 32%;
+        left: 10%;
+        width: 80%;
+        height: 30%;
+        overflow: hidden;
+/*        background-color: red;*/
+        transform: rotate(0deg);
+        margin-top: 200%;
+    }
+    .BN_Logo img{
+        padding-top: 15%;
+        width: 100%;
+    }
+    
+    #WWright {
+        margin-left: -100%;
+    }
+    #OWright {
+        margin-left: 100%;
+    }
+    
+    .MBDT {
+        position: absolute;
+        top: 70%;
+        left: -100%;
+        width: 100%;
+        height: auto;
+        transform: rotateY(180deg);
+        
+    }/* top 40 vs left 0*/
+    
+    #T_MBDT, #T_MBDT2 {
+        margin-top: 200%;
+    }
+    #T_MBDT {
+        position: absolute;
+        top: 40%;
+        left: -20%;
+        min-width: 140%;
+        width: auto;
+        height: 10%;
+        background-color: #AFAFAF;
+        color: #543E9E;
+        transform: rotate(-5deg); 
+        
+        text-align: center;
+        line-height: 40px;
+        font-size: 22px;
+        padding-left: 120%;
+        font-family: Comfortaa_Bold;
+        box-shadow: 5px 5px 30px #000;
+    }
+    #T_MBDT2 {
+        position: absolute;
+        top: 45%;
+        width: 100%;
+        height: 70%;
+        background-color: #543E9E;
+        
+        font-size: 16px;
+        color: #FFF;
+        padding: 40% 5% 0% 5%;
+        font-family: Comfortaa_Regular;
+        text-align: justify;
+    }
+    .MBT2 {
+        position: absolute;
+        top: -70%;
+        left: -40%;
+        
+        width: 180%;
+        height: auto;
+        transform: rotate(180deg)
+    }
+    
+    .MBT3, .MBT3_3D {
+        width: 150%;
+        
+        position: absolute;
+        top: 0%;
+        right: -150%;
+    }
+    .MBT3_3D{
+        opacity: 0;
+        margin-top: -2%;
+    }
+    .Q3D_MBT3 {
+        width: 5%;
+        height: 40%;
+        
+        position: absolute;
+        top: 60%;
+        left: -5%;
+        background-color: #FFF;
+    }
+    
+    .T_MBT3 p, .T_MBT3 font{
+        position: absolute;
+        top: 30%;
+        left: -100%;
+        
+        width: 80%;
+        height: auto;
+        font-size: 18px;
+        color: #FFF;
+        font-family: Comfortaa_Regular;
+    }
+    
+    .T_MBT3 font {
+        top: 10%;
+        font-size: 22px;
+        font-family: Comfortaa_Bold;
+    }
+</style>
+</head>
+<body>
+
+<div id="T_Banner">
+    <div id="BN_RS"></div>
+    
+    <div class="BN_Logo">
+        <img src="images/TL_03.png" alt="Placeholder image">
+    </div>
+    
+    <div id="WWright"><img src="images/wright_01.png" class="img-responsive" alt="Placeholder image"></div>
+    <div id="OWright"><img src="images/wright_02.png" class="img-responsive" alt="Placeholder image"></div>
+    
+    <div class="T_WW">Wilbur Wright</div>
+    <div class="T_OW">Orville Wright</div>
+    
+    <img src="images/MBDT1_02.png" class="MBDT" alt="Placeholder image">
+    <div id="T_MBDT2">the first success heavier than air power aircraft. &nbsp&nbsp &nbsp - Dec 17, 1903 - </div>
+    <div id="T_MBDT">Wright Flyer</div>
+    
+    <img src="images/boeing747_03.png" class="MBT2" alt="Placeholder image">
+    
+    <img src="images/MBT3.png" class="MBT3" alt="Placeholder image">
+    <img src="images/MBT3_3D.png" class="MBT3_3D" alt="Placeholder image">
+    <div class="Q3D_MBT3"></div>
+    <div class="T_MBT3">
+        <font>Dassault Falcon 7X</font>
+        <p>The first aircraft designed on computers.</p>
+    </div>
+    
+    
+    
+</div>
+
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-3.4.1.js"></script>
+<script type="text/javascript" src="greenstock/TweenMax.js"></script>
+<script>
+$(document).ready(function() {
+    function ThayT(nametag, newtext) {
+        $(nametag).text(newtext)
+    }
+    
+    
+    TL = new TimelineMax();
+    TL.to(".BN_Logo", 2, {rotation: 360, marginTop: 0});
+    TL.to(".BN_Logo img", .5, {paddingTop: 0});
+    TL.to(".BN_Logo", 1, {scale: 0.8, backgroundColor: "#2c2052", borderRadius: "50%", rotation: 0}, 3.3)
+        .to(".BN_Logo img", .2, {marginLeft: -15}, 3.3)
+        .to(".BN_Logo img", .2, {opacity: 0})
+//        .to(".BN_Logo", .5, {scale: 4})
+        .to("#T_Banner", .5, {backgroundColor: "#2c2052"})
+        .set(".BN_Logo", {scale: 0});
+    TL.to("#WWright", .5, {marginLeft: 0});
+    TL.to("#OWright", .5, {marginLeft: 0}, 5);
+    TL.to(".T_WW", .5, {marginLeft: 27});
+    TL.to(".T_OW", .5, {marginLeft: 25});
+    
+    TL.set("#WWright, #OWright", {boxShadow: "10px 10px 20px #000"});
+    TL.set("#OWright", {boxShadow: "-10px 10px 20px #000"});
+    
+    TL.to("#WWright img, #OWright img", .2, {scale: 0.95});
+    TL.to("#WWright", .5, {width: "50%", height: "25%", left: "5%", top: "2%"})
+        .to("#OWright", .5, {width: "50%", height: "25%", left: "45%", top: "73%"}, "#WWright-=.5")
+        .to(".T_WW", .5, {top: "19%"}, "#WWright-=.5")
+        .to(".T_OW", .5, {top: "90%"}, "#WWright-=.5")
+        .to(".T_WW", .5, {marginLeft: 13})
+        .to(".T_OW", .5, {marginLeft: 36}, "-=.5");
+    
+    TL.to("#WWright, .T_WW", .5, {top: "-50%"})
+        .to("#OWright, .T_OW", .5, {top: "150%"}, "-=.5");
+    
+    TL.to(".MBDT", 1, {top: "40%", left: "0%"}, "-=.5")
+        .to(".MBDT", 1.5, {rotation: "-40deg", top: "10%"}, "-=.5")
+        .to("#T_MBDT, #T_MBDT2", 1.5, {marginTop: 0}, "-=1.5")
+        .to("#T_MBDT", 1, {paddingLeft: 0}, "-=1");
+    
+    TL.to(".MBDT", 1, {left: "-20%",top: "-30%", rotation: "-60deg"});
+    TL.to("#T_MBDT, #T_MBDT2", 1, {rotation: 0, top: "5%"}, "-=1")
+    
+    TL.to(".MBT2", 1, {top: "-20%"})
+        .to("#T_MBDT, #T_MBDT2", 1, {top: "50%"}, "-=1")
+        .call(ThayT, ["#T_MBDT", "Boeing 747"])
+        .call(ThayT, ["#T_MBDT2", "Boeing747 make the first commerci flight."])
+    
+    TL.to(".MBT2, #T_MBDT, #T_MBDT2", 1, {top: "120%"});
+    
+    
+    TL.to(".MBT3, .MBT3_3D", 2, {right: "-65%", top: "60%", rotation: -10, scale: 1.2}, "-=.5");
+    TL.to(".Q3D_MBT3", .5, {left: "100%"})
+        .to(".MBT3_3D", .5, {opacity: 1}, "-=.5")
+        .to(".MBT3", .5, {opacity: 0}, "-=.5")
+        .to(".T_MBT3 p, .T_MBT3 font", .5, {left: "10%"}, "-=.5");
+    
+    TL.to(".Q3D_MBT3", .5, {left: "-100%"}, "+=.5")
+        .to(".MBT3_3D", .5, {opacity: 0}, "-=.5")
+        .to(".MBT3", .5, {opacity: 1}, "-=.5");
+    TL.to(".MBT3, .MBT3_3D", 2, {right: "150%", top: "120%", rotation: -20, scale: 3})
+        .to(".T_MBT3 p, .T_MBT3 font", .5, {left: "-100%"}, "-=1");
+    
+    TL.set(".BN_Logo", {scale: 4, opacity: 1});
+    TL.set("#T_Banner", {backgroundColor: "#AFAFAF"});
+    TL.to(".BN_Logo", .5,{scale: 1, opacity: 1});
+    
+    TL.to(".BN_Logo img", .2, {opacity: 1, marginLeft: 0});
+    TL.to(".BN_Logo", .5,{borderRadius: "0%", backgroundColor: "none"});
+    
+    
+    
+    
+    
+    
+    
+    
+    $("#BN_RS").click(function() {
+        TL.restart();
+    })
+    
+})
+
+</script>
+</body>
+</html>
